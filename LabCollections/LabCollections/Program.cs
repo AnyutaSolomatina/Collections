@@ -16,9 +16,9 @@ namespace LabCollections
             Console.WriteLine("Марки атомобилей:");
             Console.WriteLine();
             Cars.Sort();
-            foreach (AbstractCar cars in Cars)
+            foreach (AbstractCar car in Cars)
             {
-                Console.WriteLine(cars);
+                Console.WriteLine(car.Model());
             }
             Console.WriteLine();
             Console.WriteLine("Введите марку автомобиля, информацию о котором вы хотели бы узнать:");
